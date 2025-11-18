@@ -124,10 +124,31 @@ footer p {
 
 #felsorol li {
     list-style-type: square;
-    
+
     
 }
 
 #felsorol {
     padding-left: 50px !important;
+}
+
+table tr:nth-child(odd) {
+    background-color: grey;
+}
+
+table{
+    text-align: center;
+    margin: 10px;
+    border: 1px solid grey;
+}
+
+h3{
+    font-size: 15px;
+    margin: 15px;
+}
+
+@media only screen and (min-width:700py){
+    main{
+        grid-template-columns: 1fr;
+    }
 }
